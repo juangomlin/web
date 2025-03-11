@@ -63,6 +63,13 @@ section{
     width: 16%;
     height: auto;
 }
+.grid{
+    display: grid;
+}
+
+.grid nav:hover{
+    border: 1px solid red;
+}
 #nav5{
     background-color: rgb(66, 57, 57);
     width: 100%;
@@ -78,7 +85,7 @@ section{
     margin-top: 1px;
 }
 #nav7{
-    background-color: rgb(66, 57, 57);
+    background-color: rgb(163, 60, 60);
     width: 100%;
     height: 40px;
     margin: auto;
@@ -185,6 +192,7 @@ aside img{
     width: 100%;
     height: 40px;
     text-align: start;
+    border:solid 1px black;
 }
 #nav20{
     background-color: rgb(255, 255, 255);
@@ -224,6 +232,7 @@ aside img{
     display: flex; 
     justify-content: space-between;
 }
+
 #nav21{
     background-color: rgb(255, 255, 255);
     width: 20%;
@@ -256,12 +265,20 @@ aside img{
     display: flex; 
     justify-content: space-between;
 }
+.grid2{
+    display: grid;
+}
+
+.grid2 nav:hover{
+    border: 1px solid red;
+}
 #nav25{
     background-color:rgb(36, 34, 34);
     width: 20%;
     height: 30px;
     margin: auto;
     margin-top: 1rem;
+    border: solid 1px black;
 }
 #nav26{
     background-color:rgb(36, 34, 34);
@@ -269,6 +286,7 @@ aside img{
     height: 30px;
     margin: auto;
     margin-top: 1rem;
+    border: solid 1px black;
 }
 #nav27{
     background-color:rgb(36, 34, 34);
@@ -276,6 +294,7 @@ aside img{
     height: 30px;
     margin: auto;
     margin-top: 1rem;
+    border: solid 1px black;
 }
 #nav28{
     background-color: rgb(36, 34, 34);
@@ -283,6 +302,7 @@ aside img{
     height: 30px;
     margin: auto;
     margin-top: 1rem;
+    border: solid 1px black;
 }
 
 #sections-wrapper3{
@@ -316,203 +336,79 @@ aside img{
 }
 
 #section3{
-    background-color: rgb(114, 104, 124);
+    background-color: rgb(202, 197, 207);
     width: 16%;
     height: auto;
     margin-left: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-header img{  
-    max-width: 100%; 
-    max-height: 100%; 
-    object-fit: contain; 
+#sections-wrapper4{
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 3rem;
 }
-
-#sections-wrapper{
-    display: flex;
-    justify-content:space-between;
-    align-items: flex-start;
+#aside9{
+    background-color: rgb(214, 51, 51);
+    width: auto;
+    height: 100px;
+    margin: auto;
 }
-section{
-    background-color: rgb(160, 153, 153);
-    width: 18.5%;
-    height: 500px;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-nav{
-    background-color: rgb(124, 119, 119);
-    width: 100%;
-    height: 30px;
+#nav29{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 20px;
+    margin: auto;
     margin-top: 1rem;
 }
-#nav2{
-    background-color: rgb(199, 75, 75);
-    width: 100%;
-    height: 30px;
-    margin-top: auto;
+#sections-wrapper5{
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 3rem;
 }
-#nav3{
-    background-color: rgb(124, 119, 119);
-    width: 100%;
-    height: 30px;
-    margin-top: auto;
-}
-#nav4{
-    background-color: rgb(124, 119, 119);
-    width: 100%;
-    height: 30px;
-    margin-top: auto;
-}
-#nav5{
-    background-color: rgb(124, 119, 119);
-    width: 100%;
-    height: 30px;
-    margin-top: auto;
-}
-#nav6{
-    background-color: rgb(124, 119, 119);
-    width: 100%;
-    height: 30px;
-    margin-top: auto;
-}
-#nav7{
-    background-color: rgb(124, 119, 119);
-    width: 100%;
-    height: 30px;
-    margin-top: auto;
-}
-#nav8{
-    background-color: rgb(124, 119, 119);
-    width: 100%;
-    height: 30px;
-    margin-top: auto;
-}
-#nav9{
-    background-color: rgb(124, 119, 119);
-    width: 100%;
-    height: 30px;
-    margin-top: auto;
-}
-#nav10{
-    background-color: rgb(124, 119, 119);
-    width: 100%;
-    height: 30px;
-    margin-top: auto;
-}
-#nav11{
-    background-color: rgb(124, 119, 119);
-    width: 100%;
-    height: 30px;
-    margin-top: auto;
-}
-#nav12{
-    background-color: rgb(124, 119, 119);
-    width: 100%;
-    height: 30px;
-    margin-top: auto;
-}
-#nav13{
-    background-color: rgb(124, 119, 119);
-    width: 100%;
-    height: 30px;
-    margin-top: auto;
-}
-
-#section2{
-    background-color: rgb(49, 45, 45);
-    width: 70%;
-    height: 500px;
-    margin-right: 0;
-    margin-top: 0;
-
-}
-#section3{
-    background-color: rgb(203, 208, 212);
-    width: 17%;
-    height: 500px;
-    flex-wrap: wrap;
-}
-#section2 img {
-    max-width: 20%; 
-    max-height: 20%; 
-    object-fit: contain; 
-}
-aside{
-    background-color: azure;
-    width: 80%;
+#aside10{
+    background-color: rgb(214, 51, 51);
+    width: auto;
     height: 100px;
-    margin:auto;
+    margin: auto;
+}
+#nav30{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 20px;
+    margin: auto;
     margin-top: 1rem;
 }
-aside img{
-    max-width: 100%; 
-    max-height: 100%; 
-    object-fit: contain; 
+#nav31{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 20px;
+    margin: auto;
+    margin-top: 5rem;
+    border: solid 1px black;
 }
-#aside2{
-    background-color: azure;
-    width: 80%;
-    height: 100px;
-    margin:auto;
-    margin-top: 2rem;
+#nav32{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 20px;
+    margin: auto;
+    margin-top: 5rem;
+    border: solid 1px black;
 }
-#aside2 img{
-    max-width: 100%; 
-    max-height: 100%; 
-    object-fit: contain; 
-}
-
-#aside3{
-    background-color: rgb(60, 129, 129);
-    width: 15%;
-    height: 100px;
-    margin:auto;
-    margin-top: 0rem;
-    
-}
-#aside3 img{
-    max-width: 100%; 
-    max-height: 100%; 
-    object-fit: contain; 
-}
-#section4{
-    background-color: rgb(212, 206, 206);
+footer{
+    background-color: rgb(206, 30, 30);
     width: 100%;
-    height: 400px;
-    margin-top: 0rem;}
-
-#nav14{
-    background-color: rgb(133, 20, 20);
-    width: 100%;
-    height: 100px;
-    margin-top: 0rem;
-    display: flex;
-    align-items: flex-start;
-}
-#nav14 img{
-    max-width: 100%; 
-    max-height: 100%; 
-    object-fit: contain; 
+    height: 75px;
+    margin: auto;
+    margin-top: 1rem;
 }
 
-#section4 img{
-    max-height: 25%;
-    max-width: 25%;
-    margin-top: 2rem;
-    margin: 1rem;
-} */
+
+
+
+
+
+
+
+
+
+
+

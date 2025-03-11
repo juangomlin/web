@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {  background-color: #dbeba2;
+    text-align: center;
+ } 
+#container{
+    background-color: rgb(140, 153, 140);
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr ;
+    grid-template-rows: 25px 200px 25px;
+    grid-template-areas: ". h h" "n" "m";
+}
+header{
+    background-color: aqua;
+    grid-area: a;
+}
+nav{
+    background-color: blueviolet;
+    grid-area: n;
+}
+main{
+    background-color: rgb(143, 128, 158);
+    grid-area: m;
+}
