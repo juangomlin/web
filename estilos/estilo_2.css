@@ -29,7 +29,7 @@ header{
 
 #nav1{
     background-color: rgb(163, 60, 60);
-    width: 50%;
+    width: 35%;
     height: 60px;
 }
 #nav1 img{  
@@ -49,7 +49,7 @@ header{
 }
 #nav4{
     background-color: rgb(163, 60, 60);
-    width: 50%;
+    width: 35%;
     height: 60px;
 }
 
@@ -60,7 +60,7 @@ header{
 
 section{
     background-color: rgb(44, 45, 46);
-    width: 20%;
+    width: 16%;
     height: auto;
 }
 #nav5{
@@ -165,7 +165,7 @@ section{
 
 #section2{
     background-color: rgb(223, 219, 219);
-    width:55%;
+    width:68%;
     height: auto;
     margin-left: auto;
 }
@@ -198,27 +198,27 @@ aside img{
 }
 #aside1{
     background-color: rgb(214, 51, 51);
-    width: 40%;
+    width: auto;
     height: 80px;
-    margin: 1rem;
+    margin: auto;
 }
 #aside2{
     background-color: rgb(214, 51, 51);
-    width: 40%;
+    width: auto;
     height: 80px;
-    margin: 1rem;
+    margin: auto;
 }
 #aside3{
     background-color: rgb(214, 51, 51);
-    width: 40%;
+    width: auto;
     height: 80px;
-    margin: 1rem;
+    margin: auto;
 }
 #aside4{
     background-color: rgb(214, 51, 51);
-    width: 40%;
+    width: auto;
     height: 80px;
-    margin: 1rem;
+    margin: auto;
 }
 #navs2{
     display: flex; 
@@ -226,31 +226,98 @@ aside img{
 }
 #nav21{
     background-color: rgb(255, 255, 255);
-    width: 50%;
+    width: 20%;
     height: 20px;
     margin: auto;
+    margin-top: 1rem;
 }
 #nav22{
     background-color: rgb(255, 255, 255);
-    width: 50%;
+    width: 20%;
     height: 20px;
     margin: auto;
+    margin-top: 1rem;
 }
 #nav23{
     background-color: rgb(255, 255, 255);
-    width: 50%;
+    width: 20%;
     height: 20px;
     margin: auto;
+    margin-top: 1rem;
 }
 #nav24{
     background-color: rgb(255, 255, 255);
-    width: 50%;
+    width: 20%;
     height: 20px;
     margin: auto;
+    margin-top: 1rem;
 }
+#navs3{
+    display: flex; 
+    justify-content: space-between;
+}
+#nav25{
+    background-color:rgb(36, 34, 34);
+    width: 20%;
+    height: 30px;
+    margin: auto;
+    margin-top: 1rem;
+}
+#nav26{
+    background-color:rgb(36, 34, 34);
+    width: 20%;
+    height: 30px;
+    margin: auto;
+    margin-top: 1rem;
+}
+#nav27{
+    background-color:rgb(36, 34, 34);
+    width: 20%;
+    height: 30px;
+    margin: auto;
+    margin-top: 1rem;
+}
+#nav28{
+    background-color: rgb(36, 34, 34);
+    width: 20%;
+    height: 30px;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+#sections-wrapper3{
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+#aside5{
+    background-color: rgb(214, 51, 51);
+    width: auto;
+    height: 80px;
+    margin: auto;
+}
+#aside6{
+    background-color: rgb(214, 51, 51);
+    width: auto;
+    height: 80px;
+    margin: auto;
+}
+#aside7{
+    background-color: rgb(214, 51, 51);
+    width: auto;
+    height: 80px;
+    margin: auto;
+}
+#aside8{
+    background-color: rgb(214, 51, 51);
+    width: auto;
+    height: 80px;
+    margin: auto;
+}
+
 #section3{
     background-color: rgb(114, 104, 124);
-    width: 20%;
+    width: 16%;
     height: auto;
     margin-left: auto;
 }
