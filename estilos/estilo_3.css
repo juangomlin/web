@@ -5,24 +5,184 @@
 body {  background-color: #dbeba2;
     text-align: center;
  } 
-#container{
+ #container {
     background-color: rgb(140, 153, 140);
     width: 95%;
+    height: auto;
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr ;
-    grid-template-rows: 25px 200px 25px;
-    grid-template-areas: ". h h" "n" "m";
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 400px auto auto;
+    grid-template-areas: 
+        "a n d";  
 }
-header{
-    background-color: aqua;
-    grid-area: a;
-}
-nav{
-    background-color: blueviolet;
+
+header {
+    background-color: rgb(178, 170, 184);
     grid-area: n;
 }
-main{
-    background-color: rgb(143, 128, 158);
-    grid-area: m;
+nav {
+    background-color: rgb(197, 79, 79);
+    grid-area: a;
+    height: auto;
 }
+aside{
+    background-color: rgb(165, 60, 60);
+    height: 50px;
+    width: auto;
+}
+#aside1{
+    background-color: rgb(121, 92, 92);
+    height: 328px;
+    width: auto;
+}
+
+#nav1{
+    background-color: rgb(197, 79, 79);
+    grid-area: d;
+    height:350px;
+}
+#section{
+    background-color: rgb(197, 79, 79);
+    grid-area: d;
+}
+
+#aside6{
+    background-color: rgb(165, 60, 60);
+    height: 50px;
+    width: auto;
+}
+#aside7{
+    background-color: rgb(121, 92, 92);
+    height: 328px;
+    width: auto;
+}
+
+main{
+    background-color: rgb(29, 28, 28);
+    height: 100px;
+    margin-top: 22px;
+
+}
+
+#asides{
+    display: flex;
+    justify-content: space-between;
+}
+#aside2{
+    background-color: rgb(121, 92, 92);
+    height: 40px;
+    width: 15%;
+    margin: auto;
+    margin-top: 5px;
+}
+#aside3{
+    background-color: rgb(121, 92, 92);
+    height: 40px;
+    width: 15%;
+    margin: auto;
+    margin-top: 5px;
+}
+#aside4{
+    background-color: rgb(121, 92, 92);
+    height: 40px;
+    width: 15%;
+    margin: auto;
+    margin-top: 5px;
+}
+#aside5{
+    background-color: rgb(121, 92, 92);
+    height: 40px;
+    width: 15%;
+    margin: auto;
+    margin-top: 5px;
+}
+#navs1{
+    display: flex;
+    justify-content: space-between;
+}
+#nav2{
+    background-color: rgb(197, 79, 79);
+    height:20px;
+    width: 10%;
+    margin: auto;
+    margin-top: 1rem;
+}
+#nav3{
+    background-color: rgb(197, 79, 79);
+    height:20px;
+    width: 10%;
+    margin: auto;
+    margin-top: 1rem;
+}
+#nav4{
+    background-color: rgb(197, 79, 79);
+    height:20px;
+    width: 10%;
+    margin: auto;
+    margin-top: 1rem;
+}
+#nav5{
+    background-color: rgb(197, 79, 79);
+    height:20px;
+    width: 10%;
+    margin: auto;
+    margin-top: 1rem;
+}
+#nav6{
+    background-color: rgb(197, 79, 79);
+    height:20px;
+    width: 10%;
+    margin: auto;
+    margin-top: 5px;
+}
+#nav7{
+    background-color: rgb(197, 79, 79);
+    height:20px;
+    width: 10%;
+    margin: auto;
+    margin-top: 5px;
+}
+#nav8{
+    background-color: rgb(197, 79, 79);
+    height:20px;
+    width: 10%;
+    margin: auto;
+    margin-top: 5px;
+}
+#nav9{
+    background-color: rgb(197, 79, 79);
+    height:20px;
+    width: 10%;
+    margin: auto;
+    margin-top: 5px;
+}
+#aside8{
+    background-color: rgb(121, 92, 92);
+    height: 40px;
+    width: 15%;
+    margin: auto;
+    margin-top: 1rem;
+}
+#aside9{
+    background-color: rgb(121, 92, 92);
+    height: 40px;
+    width: 15%;
+    margin: auto;
+    margin-top: 1rem;
+}
+#aside10{
+    background-color: rgb(121, 92, 92);
+    height: 40px;
+    width: 15%;
+    margin: auto;
+    margin-top: 1rem;
+}
+#aside11{
+    background-color: rgb(121, 92, 92);
+    height: 40px;
+    width: 15%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
